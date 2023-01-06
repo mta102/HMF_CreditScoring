@@ -35,10 +35,10 @@ log = logging.getLogger("my-logger")
 log.setLevel(logging.DEBUG)
 
 # [2022-06-28, Naing] Dashboard database write access API - ONLY for hwa_cs_output and hwa_credit_score tables.
-db_api_host = "https://webappapi.hanamicrofinance.net"
+db_api_host = "https://xxx.hanamicrofinance.net"
 db_api_root = "api/v1"
 
-db_connection_str = 'mysql://kebwebuser:u5erMeb%40pp@hana-production-analytics-read-replica.c0wcwq0ocdj3.ap-southeast-1.rds.amazonaws.com/kebhana_dashboard_db'
+db_connection_str = 'mysql://xxx:xxx%40pp@hana-production-analytics-read-replica.c0wcwq0ocdj3.ap-southeast-1.rds.amazonaws.com/kebhana_dashboard_db'
 
 def try_float(x):
     try:
