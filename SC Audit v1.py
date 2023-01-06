@@ -12,7 +12,7 @@ import connectorx as cx
 from google.colab import drive 
 drive.mount('/content/drive')
 
-db_connection_str = 'mysql://kebwebuser:u5erMeb%40pp@hana-production-analytics-read-replica.c0wcwq0ocdj3.ap-southeast-1.rds.amazonaws.com/kebhana_dashboard_db'
+db_connection_str = 'mysql://xxx:xxx%40pp@hana-production-analytics-read-replica.c0wcwq0ocdj3.ap-southeast-1.rds.amazonaws.com/kebhana_dashboard_db'
 
 
 #------------------------------------------------------------------------------------
