@@ -22,7 +22,7 @@ drive.mount('/content/drive')
 
 SID_folderpath = "/content/drive/MyDrive/SID/"
 
-db_connection_str = 'mysql://kebwebuser:u5erMeb%40pp@hana-production-analytics-read-replica.c0wcwq0ocdj3.ap-southeast-1.rds.amazonaws.com/kebhana_dashboard_db'
+db_connection_str = 'mysql://xxx:xxx%40pp@hana-production-analytics-read-replica.c0wcwq0ocdj3.ap-southeast-1.rds.amazonaws.com/kebhana_dashboard_db'
 
 SIDPstartDate='2021-01-01'
 SIDPendDate='2022-12-31'
